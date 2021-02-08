@@ -53,3 +53,11 @@ function sortAarray() {
 }
 
 sortAarray();
+
+function makeReverse() {
+  let name = "hira hasan";
+  let reverse = [...name].reverse().join("");
+  console.log(reverse);
+}
+
+makeReverse();
